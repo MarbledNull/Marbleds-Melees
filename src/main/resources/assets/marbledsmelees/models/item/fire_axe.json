@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "marbledsmelees:item/crowbar"
+    "layer0": "marbledsmelees:item/fire_axe"
   }
 }
