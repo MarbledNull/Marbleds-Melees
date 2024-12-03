@@ -1,0 +1,42 @@
+{
+  "parent": "marbledsmelees:marbleds_melees/root",
+  "criteria": {
+    "crowbar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marbledsmelees:crowbar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.marbleds_melees.crowbar.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "marbledsmelees:crowbar",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.marbleds_melees.crowbar.title"
+    }
+  },
+  "requirements": [
+    [
+      "crowbar"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

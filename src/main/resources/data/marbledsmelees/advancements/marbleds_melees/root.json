@@ -1,0 +1,52 @@
+{
+  "criteria": {
+    "steel_sheet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mcore:steel_sheet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mcore:steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "description": {
+      "translate": "advancements.marbleds_melees.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "marbledsmelees:crowbar",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.marbleds_melees.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "steel_sheet",
+      "steel_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
