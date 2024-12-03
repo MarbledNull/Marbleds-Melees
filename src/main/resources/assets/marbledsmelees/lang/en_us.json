@@ -18,5 +18,9 @@
   "item.marbledsmelees.golf_club": "Golf Club",
   "item.marbledsmelees.baseball_bat": "Baseball Bat",
   "item.marbledsmelees.barbed_baseball_bat": "Barbed Baseball Bat",
-  "item.marbledsmelees.steel_baseball_bat": "Steel Baseball Bat"
+  "item.marbledsmelees.steel_baseball_bat": "Steel Baseball Bat",
+  "advancements.marbleds_melees.root.title": "Marbled's Melees",
+  "advancements.marbleds_melees.root.description": "Obtain one of the main ingredients",
+  "advancements.marbleds_melees.crowbar.title": "I think you dropped this back in Black Mesa",
+  "advancements.marbleds_melees.crowbar.description": "Obtain a Crowbar"
 }
