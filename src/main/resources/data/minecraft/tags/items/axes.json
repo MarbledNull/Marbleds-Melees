@@ -1,6 +1,7 @@
 {
   "values": [
-    "mcore:fire_axe",
-    "mcore:modern_axe"
+    "marbledsmelees:fire_axe",
+    "marbledsmelees:modern_axe",
+    "marbledsmelees:tomahawk"
   ]
 }
