@@ -28,12 +28,11 @@ public class ModItems {
     public static final RegistryObject<Item> TANTO = ITEMS.register("tanto", () -> new SwordItem(Tiers.IRON, 3, -2.3f, new Item.Properties().durability(250)));
     public static final RegistryObject<Item> BASEBALL_BAT = ITEMS.register("baseball_bat", () -> new SwordItem(Tiers.IRON, 1, -2.4f, new Item.Properties().durability(500)));
     public static final RegistryObject<Item> BARBED_BASEBALL_BAT = ITEMS.register("barbed_baseball_bat", () -> new SwordItem(Tiers.IRON, 3, -2.4f, new Item.Properties().durability(500)));
-    public static final RegistryObject<Item> STEEL_BASEBALL_BAT = ITEMS.register("steel_baseball_bat", () -> new SwordItem(Tiers.IRON, 5, -2.7f, new Item.Properties().durability(750)));
+    public static final RegistryObject<Item> METAL_BASEBALL_BAT = ITEMS.register("metal_baseball_bat", () -> new SwordItem(Tiers.IRON, 5, -2.7f, new Item.Properties().durability(750)));
     public static final RegistryObject<Item> KITCHEN_KNIFE = ITEMS.register("kitchen_knife", () -> new SwordItem(Tiers.IRON, 2, -2.7f, new Item.Properties().durability(125)));
     public static final RegistryObject<Item> BUTCHER_KNIFE = ITEMS.register("butcher_knife", () -> new SwordItem(Tiers.IRON, 3, -2.7f, new Item.Properties().durability(125)));
     public static final RegistryObject<Item> COMBAT_KNIFE = ITEMS.register("combat_knife", () -> new SwordItem(Tiers.IRON, 2, -1.4f, new Item.Properties().durability(200)));
     public static final RegistryObject<Item> FRYING_PAN = ITEMS.register("frying_pan", () -> new SwordItem(Tiers.IRON, 2, -1.4f, new Item.Properties().durability(200)));
-    public static final RegistryObject<Item> PENCIL = ITEMS.register("pencil", () -> new SwordItem(Tiers.IRON, 1, -1.4f, new Item.Properties().durability(200)));
     public static final RegistryObject<Item> COMICALLY_LARGE_SPOON = ITEMS.register("comically_large_spoon", () -> new SwordItem(Tiers.IRON, 8, -3.6f, new Item.Properties().durability(200)));
 
 

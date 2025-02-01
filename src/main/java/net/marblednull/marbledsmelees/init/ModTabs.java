@@ -31,7 +31,12 @@ public class ModTabs {
                         output.accept(ModItems.TANTO.get());
                         output.accept(ModItems.BASEBALL_BAT.get());
                         output.accept(ModItems.BARBED_BASEBALL_BAT.get());
-                        output.accept(ModItems.STEEL_BASEBALL_BAT.get());
+                        output.accept(ModItems.METAL_BASEBALL_BAT.get());
+                        output.accept(ModItems.KITCHEN_KNIFE.get());
+                        output.accept(ModItems.BUTCHER_KNIFE.get());
+                        output.accept(ModItems.COMBAT_KNIFE.get());
+                        output.accept(ModItems.FRYING_PAN.get());
+                        output.accept(ModItems.COMICALLY_LARGE_SPOON.get());
                     })
                     .build()
     );

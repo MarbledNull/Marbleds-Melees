@@ -27,7 +27,7 @@ displayURL="https://modrinth.com/project/marbleds-melees / https://curseforge.co
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="mm_logo.png" #optional
 # A text field displayed in the mod UI
-credits="MarbledNull, MarbledHubb Beta Testers" #optional
+credits="MarbledNull, MarbledHubb Beta Testers, My patrons, GitHub contributors" #optional
 # A text field displayed in the mod UI
 authors="MarbledNull" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -39,7 +39,7 @@ authors="MarbledNull" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''A mod that adds all sorts of 3D melee weapons and tools'''
+description='''A mod that adds all sorts of melee weapons'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.marbledsmelees]] #optional
     # the modid of the dependency
@@ -66,7 +66,7 @@ description='''A mod that adds all sorts of 3D melee weapons and tools'''
 modId="mcore"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange="1.0.3.0,"
+versionRange="[1.0.3.0,]"
 ordering="NONE"
 side="BOTH"
 
